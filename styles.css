@@ -1,0 +1,64 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: gray;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+}
+.interface-container {
+    text-align: center;
+}
+.interface {
+    display: inline-block;
+    height: 400px;
+    width: 250px;
+    background-color: #272623;
+}
+#display {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-color: orange;
+    height: 100px;
+    text-align: center;
+}
+#previous-operand {
+    margin: 10px;
+}
+#current-operand {
+    margin: 15px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.interface-container > button {
+    cursor: pointer;
+}
+.button-grid {
+    margin-top: 10px;
+}
+button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    background-color: white;
+    color: black;
+    height: 55px;
+    width: 55px;
+}
+.btn-wide {
+    width: 115px;
+}
+.btn-wider {
+    width: 175px;
+}
+
+
+
+
+
+
+
